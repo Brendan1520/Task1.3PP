@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/b.png">
+    <!--Favicon for the website-->
+
+
+    <!--Importing the Vue Library-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <!--Importing the Vue Router Library-->
+    <script src="https://cdn.jsdelivr.net/npm/vue-router@3.5.2/dist/vue-router.js"></script>
+
+    <!-- External CSS stylesheet -->
+    <link rel="stylesheet" href="design.css">
+   
+
+</head>
+<body>
+    
+    
+    
+    
+    <div id="app">   <!--Main container for app-->
+        <!--Navigation bar-->
+        <navbar-component></navbar-component>
+        <router-view></router-view>
+        <!--footer component-->
+        <footer-component></footer-component>
+    </div>
+
+<!--External Javascript file connection-->    
+
+<script src="scripts.js"></script>
+
+</body>
+</html>

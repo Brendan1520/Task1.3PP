@@ -1,0 +1,384 @@
+
+/* Resetting styles*/
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: black;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+  
+  /*Styles for anchor tags*/
+
+  a {
+    text-decoration: none;
+    color: skyblue;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+
+.container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+}
+
+
+
+.row:after {
+    content: "";
+    display: table;
+    
+}
+  
+ 
+  /* About section styles */
+  .about-section {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    background-color: black;
+    
+  }
+  
+  /*Profile Picture styles*/
+
+  .profile-picture img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid darkcyan;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  .about-text {  
+    flex: 1;
+    padding-left: 20px;
+    color: aqua;
+  }
+  
+  /* Projects table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    color: black;
+    
+  }
+
+  /*Styles with anchor tags*/
+  a {
+    text-decoration: none;
+    color: skyblue;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+}
+
+
+
+.row:after {
+    content: "";
+    display: table;
+    
+}
+  
+ 
+  /* About section styles */
+  .about-section {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    background-color: black;
+    
+  }
+  
+  /*Profile Picture styles*/
+
+  .profile-picture img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid darkcyan;
+  }
+  
+  .about-text {
+    flex: 1;
+    padding-left: 20px;
+    color: aqua;
+  }
+  
+  /* Projects table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    color: black;
+    
+  }
+
+  .announcement { /*Styling for announcement  */
+    padding: 5px;
+    background-color: blue;   
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+  .coloumn-headings {
+    color: white;
+  }
+  
+  
+  /* Contact form */
+ 
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-color: skyblue;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+  
+  /* Footer */
+  .footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
+  }
+
+  .link-github {
+    color:orange
+  }
+
+  /* Projects section */
+.projects {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin: 20px 0;
+}
+
+.projects table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.projects th td {
+    border: 1px solid black;
+    text-align: left;
+}
+
+.projects th {
+    background-color: brown;
+}
+
+.projects a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* The styles for Navigation */
+#app {
+    text-align: center; 
+    padding: 20px 0; 
+}
+/* The styles for the anchor links */
+
+#app > a {
+    margin: 0 15px; 
+    font-size: 20px; 
+    color: skyblue; 
+    transition: all 0.3s ease;
+    padding: 5px 10px; 
+    border-radius: 5px; 
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;   /* Center links horizontally */
+  align-items: center;       /* Center links vertically */
+  padding: 10px 0;
+  background-color: skyblue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+.nav-link {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;               
+  font-weight: bold;
+  transition: color 0.3s;
+
+}
+  .announcement {
+    padding: 5px;
+    background-color: blue;   
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+  .coloumn-headings {
+    color: white;
+  }
+  
+  
+  /* Contact form */
+ 
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-color: skyblue;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+  
+  /* Footer */
+  .footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .link-github {
+    color:orange
+  }
+
+/* The Menu for Navigation */
+#app {
+    text-align: center; 
+    padding: 20px 0; 
+}
+
+#app > a {
+    margin: 0 15px; 
+    font-size: 20px; 
+    color: skyblue; 
+    transition: all 0.3s ease;
+    padding: 5px 10px; 
+    border-radius: 5px; 
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;   /* Center links horizontally */
+  align-items: center;       /* Center links vertically */
+  padding: 10px 0;
+  background-color: skyblue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+.nav-link {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;               
+  font-weight: bold;
+  transition: color 0.3s;
+
+}
+/* For phones */
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: white; /* example styling for demonstration */
+    }
+
+    .header {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .projects {
+        font-size: 14px;
+    }
+
+    
+}
+
+ 
+/*for desktops*/
+
+@media only screen and (min-width: 1080px) {
+    body {
+        background-color: white; 
+    }
+
+    .header {
+        padding: 25px 50px;
+    }
+
+    .projects {
+        font-size: 16px;
+    }
+
+    
+}
